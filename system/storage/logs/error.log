@@ -1,0 +1,25 @@
+2016-10-31 10:42:44 - PHP Warning:  curl_init() has been disabled for security reasons in /profiles/i/ig/igo/igorkv94/test-result.zzz.com.ua/admin/model/localisation/currency.php on line 122
+2016-10-31 10:42:44 - PHP Warning:  curl_setopt() has been disabled for security reasons in /profiles/i/ig/igo/igorkv94/test-result.zzz.com.ua/admin/model/localisation/currency.php on line 124
+2016-10-31 10:42:44 - PHP Warning:  curl_setopt() has been disabled for security reasons in /profiles/i/ig/igo/igorkv94/test-result.zzz.com.ua/admin/model/localisation/currency.php on line 125
+2016-10-31 10:42:44 - PHP Warning:  curl_setopt() has been disabled for security reasons in /profiles/i/ig/igo/igorkv94/test-result.zzz.com.ua/admin/model/localisation/currency.php on line 126
+2016-10-31 10:42:44 - PHP Warning:  curl_setopt() has been disabled for security reasons in /profiles/i/ig/igo/igorkv94/test-result.zzz.com.ua/admin/model/localisation/currency.php on line 127
+2016-10-31 10:42:44 - PHP Warning:  curl_setopt() has been disabled for security reasons in /profiles/i/ig/igo/igorkv94/test-result.zzz.com.ua/admin/model/localisation/currency.php on line 128
+2016-10-31 10:42:44 - PHP Warning:  curl_exec() has been disabled for security reasons in /profiles/i/ig/igo/igorkv94/test-result.zzz.com.ua/admin/model/localisation/currency.php on line 130
+2016-10-31 10:42:44 - PHP Warning:  curl_close() has been disabled for security reasons in /profiles/i/ig/igo/igorkv94/test-result.zzz.com.ua/admin/model/localisation/currency.php on line 132
+2016-10-31 10:51:04 - PHP Warning:  curl_init() has been disabled for security reasons in /profiles/i/ig/igo/igorkv94/test-result.zzz.com.ua/admin/model/localisation/currency.php on line 122
+2016-10-31 10:51:04 - PHP Warning:  curl_setopt() has been disabled for security reasons in /profiles/i/ig/igo/igorkv94/test-result.zzz.com.ua/admin/model/localisation/currency.php on line 124
+2016-10-31 10:51:04 - PHP Warning:  curl_setopt() has been disabled for security reasons in /profiles/i/ig/igo/igorkv94/test-result.zzz.com.ua/admin/model/localisation/currency.php on line 125
+2016-10-31 10:51:04 - PHP Warning:  curl_setopt() has been disabled for security reasons in /profiles/i/ig/igo/igorkv94/test-result.zzz.com.ua/admin/model/localisation/currency.php on line 126
+2016-10-31 10:51:04 - PHP Warning:  curl_setopt() has been disabled for security reasons in /profiles/i/ig/igo/igorkv94/test-result.zzz.com.ua/admin/model/localisation/currency.php on line 127
+2016-10-31 10:51:04 - PHP Warning:  curl_setopt() has been disabled for security reasons in /profiles/i/ig/igo/igorkv94/test-result.zzz.com.ua/admin/model/localisation/currency.php on line 128
+2016-10-31 10:51:04 - PHP Warning:  curl_exec() has been disabled for security reasons in /profiles/i/ig/igo/igorkv94/test-result.zzz.com.ua/admin/model/localisation/currency.php on line 130
+2016-10-31 10:51:04 - PHP Warning:  curl_close() has been disabled for security reasons in /profiles/i/ig/igo/igorkv94/test-result.zzz.com.ua/admin/model/localisation/currency.php on line 132
+2016-10-31 10:51:37 - PHP Warning:  curl_init() has been disabled for security reasons in /profiles/i/ig/igo/igorkv94/test-result.zzz.com.ua/admin/model/localisation/currency.php on line 122
+2016-10-31 10:51:37 - PHP Warning:  curl_setopt() has been disabled for security reasons in /profiles/i/ig/igo/igorkv94/test-result.zzz.com.ua/admin/model/localisation/currency.php on line 124
+2016-10-31 10:51:37 - PHP Warning:  curl_setopt() has been disabled for security reasons in /profiles/i/ig/igo/igorkv94/test-result.zzz.com.ua/admin/model/localisation/currency.php on line 125
+2016-10-31 10:51:37 - PHP Warning:  curl_setopt() has been disabled for security reasons in /profiles/i/ig/igo/igorkv94/test-result.zzz.com.ua/admin/model/localisation/currency.php on line 126
+2016-10-31 10:51:37 - PHP Warning:  curl_setopt() has been disabled for security reasons in /profiles/i/ig/igo/igorkv94/test-result.zzz.com.ua/admin/model/localisation/currency.php on line 127
+2016-10-31 10:51:37 - PHP Warning:  curl_setopt() has been disabled for security reasons in /profiles/i/ig/igo/igorkv94/test-result.zzz.com.ua/admin/model/localisation/currency.php on line 128
+2016-10-31 10:51:37 - PHP Warning:  curl_exec() has been disabled for security reasons in /profiles/i/ig/igo/igorkv94/test-result.zzz.com.ua/admin/model/localisation/currency.php on line 130
+2016-10-31 10:51:37 - PHP Warning:  curl_close() has been disabled for security reasons in /profiles/i/ig/igo/igorkv94/test-result.zzz.com.ua/admin/model/localisation/currency.php on line 132
+2016-10-31 12:04:26 - PHP Notice:  Error: Could not load template /profiles/i/ig/igo/igorkv94/test-result.zzz.com.ua/catalog/view/theme/default/template/product/product.tpl! in /profiles/i/ig/igo/igorkv94/test-result.zzz.com.ua/system/storage/modification/system/library/template/basic.php on line 26

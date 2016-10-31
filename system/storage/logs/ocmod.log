@@ -1,0 +1,2493 @@
+2016-10-31 10:45:46 - MOD: Modification Default
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 34
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+LINE: 92
+LINE: 104
+LINE: 142
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 35
+LINE: 41
+LINE: 47
+FILE: system/library/template/basic.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 132
+CODE: public function unzip() {
+LINE: 293
+----------------------------------------------------------------
+2016-10-31 10:46:18 - MOD: Modification Default
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 34
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+LINE: 92
+LINE: 104
+LINE: 142
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 35
+LINE: 41
+LINE: 47
+FILE: system/library/template/basic.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 132
+CODE: public function unzip() {
+LINE: 293
+----------------------------------------------------------------
+MOD: Special Price Percentage
+FILE: catalog/controller/product/product.php
+CODE: $data['special'] = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+LINE: 314
+CODE: $data['special'] = false;
+LINE: 317
+FILE: catalog/view/theme/default/template/product/product.tpl
+CODE: <a class="thumbnail" href="<?php echo $popup; ?>" title="<?php echo $heading_title; ?>"><img src="<?php echo $thumb; ?>" title="<?php echo $heading_title; ?>" alt="<?php echo $heading_title; ?>" /></a>
+LINE: 27
+FILE: catalog/controller/product/category.php
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+LINE: 196
+CODE: $special = false;
+LINE: 199
+CODE: 'price'       => $price,
+LINE: 220
+FILE: catalog/controller/product/compare.php
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+FILE: catalog/controller/product/manufacturer.php
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+LINE: 193
+CODE: $special = false;
+LINE: 196
+CODE: 'price'       => $price,
+LINE: 217
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+LINE: 425
+CODE: $special = false;
+LINE: 428
+CODE: 'price'       => $price,
+LINE: 449
+FILE: catalog/controller/product/search.php
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+LINE: 230
+CODE: $special = false;
+LINE: 233
+CODE: 'price'       => $price,
+LINE: 254
+FILE: catalog/controller/product/special.php
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+LINE: 115
+CODE: $special = false;
+LINE: 118
+CODE: 'price'       => $price,
+LINE: 139
+FILE: catalog/view/theme/default/template/product/category.tpl
+CODE: <div class="product-thumb">
+LINE: 97
+CODE: <strike><?php echo $product['price']; ?></strike> <?php echo $product['special']; ?>
+NOT FOUND!
+FILE: catalog/view/theme/default/template/product/compare.tpl
+CODE: <div class="product-thumb">
+NOT FOUND!
+FILE: catalog/view/theme/default/template/product/manufacturer_info.tpl
+CODE: <div class="product-thumb">
+LINE: 60
+CODE: <strike><?php echo $product['price']; ?></strike> <?php echo $product['special']; ?>
+NOT FOUND!
+FILE: catalog/view/theme/default/template/product/manufacturer_list.tpl
+CODE: <div class="product-thumb">
+NOT FOUND!
+CODE: <div class="product-thumb">
+NOT FOUND!
+FILE: catalog/view/theme/default/template/product/review.tpl
+CODE: <div class="product-thumb">
+NOT FOUND!
+FILE: catalog/view/theme/default/template/product/search.tpl
+CODE: <div class="product-thumb">
+LINE: 112
+CODE: <strike><?php echo $product['price']; ?></strike> <?php echo $product['special']; ?>
+NOT FOUND!
+FILE: catalog/view/theme/default/template/product/special.tpl
+CODE: <div class="product-thumb">
+LINE: 60
+CODE: <strike><?php echo $product['price']; ?></strike> <?php echo $product['special']; ?>
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+LINE: 90
+CODE: $special = false;
+LINE: 93
+CODE: 'price'        => $price,
+LINE: 119
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: <strike><?php echo $product['price']; ?></strike> <?php echo $product['special']; ?>
+NOT FOUND!
+CODE: <strike><?php echo $product['price']; ?></strike> <?php echo $product['special']; ?>
+LINE: 52
+CODE: <strike><?php echo $product['price']; ?></strike> <?php echo $product['special']; ?>
+NOT FOUND!
+CODE: <strike><?php echo $product['price']; ?></strike> <?php echo $product['special']; ?>
+NOT FOUND!
+CODE: <strike><?php echo $product['price']; ?></strike> <?php echo $product['special']; ?>
+NOT FOUND!
+CODE: <strike><?php echo $product['price']; ?></strike> <?php echo $product['special']; ?>
+NOT FOUND!
+CODE: <strike><?php echo $product['price']; ?></strike> <?php echo $product['special']; ?>
+NOT FOUND!
+CODE: <strike><?php echo $product['price']; ?></strike> <?php echo $product['special']; ?>
+NOT FOUND!
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: <link href="catalog/view/theme/default/stylesheet/stylesheet.css" rel="stylesheet">
+LINE: 25
+FILE: catalog/controller/module/account.php
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+FILE: catalog/controller/module/affiliate.php
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+FILE: catalog/controller/module/amazon_login.php
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+FILE: catalog/controller/module/amazon_pay.php
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+FILE: catalog/controller/module/banner.php
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+FILE: catalog/controller/module/bestseller.php
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+FILE: catalog/controller/module/carousel.php
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+FILE: catalog/controller/module/category.php
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+FILE: catalog/controller/module/ebay_listing.php
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+FILE: catalog/controller/module/featured.php
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+LINE: 44
+CODE: $special = false;
+LINE: 47
+CODE: 'price'       => $price,
+LINE: 68
+FILE: catalog/controller/module/filter.php
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+FILE: catalog/controller/module/google_hangouts.php
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+FILE: catalog/controller/module/html.php
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+FILE: catalog/controller/module/information.php
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+FILE: catalog/controller/module/latest.php
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+FILE: catalog/controller/module/laybuy_layout.php
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+FILE: catalog/controller/module/pp_button.php
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+FILE: catalog/controller/module/pp_login.php
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+FILE: catalog/controller/module/sagepay_direct_cards.php
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+FILE: catalog/controller/module/sagepay_server_cards.php
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+FILE: catalog/controller/module/slideshow.php
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+FILE: catalog/controller/module/special.php
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+FILE: catalog/controller/module/store.php
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+LINE: 37
+CODE: $special = false;
+LINE: 40
+CODE: 'price'       => $price,
+LINE: 61
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+LINE: 44
+CODE: $special = false;
+LINE: 47
+CODE: 'price'       => $price,
+LINE: 68
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+LINE: 44
+CODE: $special = false;
+LINE: 47
+CODE: 'price'       => $price,
+LINE: 68
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+FILE: catalog/view/theme/default/template/module/account.tpl
+CODE: <div class="product-thumb transition">
+NOT FOUND!
+FILE: catalog/view/theme/default/template/module/affiliate.tpl
+CODE: <div class="product-thumb transition">
+NOT FOUND!
+FILE: catalog/view/theme/default/template/module/amazon_login.tpl
+CODE: <div class="product-thumb transition">
+NOT FOUND!
+FILE: catalog/view/theme/default/template/module/amazon_pay.tpl
+CODE: <div class="product-thumb transition">
+NOT FOUND!
+FILE: catalog/view/theme/default/template/module/banner.tpl
+CODE: <div class="product-thumb transition">
+NOT FOUND!
+FILE: catalog/view/theme/default/template/module/bestseller.tpl
+CODE: <div class="product-thumb transition">
+LINE: 5
+FILE: catalog/view/theme/default/template/module/carousel.tpl
+CODE: <div class="product-thumb transition">
+NOT FOUND!
+FILE: catalog/view/theme/default/template/module/category.tpl
+CODE: <div class="product-thumb transition">
+NOT FOUND!
+FILE: catalog/view/theme/default/template/module/ebay_listing.tpl
+CODE: <div class="product-thumb transition">
+LINE: 5
+FILE: catalog/view/theme/default/template/module/featured.tpl
+CODE: <div class="product-thumb transition">
+LINE: 5
+FILE: catalog/view/theme/default/template/module/filter.tpl
+CODE: <div class="product-thumb transition">
+NOT FOUND!
+FILE: catalog/view/theme/default/template/module/google_hangouts.tpl
+CODE: <div class="product-thumb transition">
+NOT FOUND!
+FILE: catalog/view/theme/default/template/module/html.tpl
+CODE: <div class="product-thumb transition">
+NOT FOUND!
+FILE: catalog/view/theme/default/template/module/information.tpl
+CODE: <div class="product-thumb transition">
+NOT FOUND!
+FILE: catalog/view/theme/default/template/module/latest.tpl
+CODE: <div class="product-thumb transition">
+LINE: 5
+FILE: catalog/view/theme/default/template/module/laybuy_layout.tpl
+CODE: <div class="product-thumb transition">
+NOT FOUND!
+FILE: catalog/view/theme/default/template/module/pp_button.tpl
+CODE: <div class="product-thumb transition">
+NOT FOUND!
+FILE: catalog/view/theme/default/template/module/pp_login.tpl
+CODE: <div class="product-thumb transition">
+NOT FOUND!
+FILE: catalog/view/theme/default/template/module/sagepay_direct_cards.tpl
+CODE: <div class="product-thumb transition">
+NOT FOUND!
+FILE: catalog/view/theme/default/template/module/sagepay_server_cards.tpl
+CODE: <div class="product-thumb transition">
+NOT FOUND!
+FILE: catalog/view/theme/default/template/module/slideshow.tpl
+CODE: <div class="product-thumb transition">
+NOT FOUND!
+FILE: catalog/view/theme/default/template/module/special.tpl
+CODE: <div class="product-thumb transition">
+LINE: 5
+FILE: catalog/view/theme/default/template/module/store.tpl
+CODE: <div class="product-thumb transition">
+NOT FOUND!
+FILE: catalog/controller/account/wishlist.php
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+LINE: 98
+CODE: $special = false;
+LINE: 101
+CODE: 'price'      => $price,
+LINE: 111
+FILE: catalog/view/theme/default/template/account/wishlist.tpl
+CODE: <b><?php echo $product['special']; ?></b>
+LINE: 50
+----------------------------------------------------------------
+2016-10-31 13:17:59 - MOD: Modification Default
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 34
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+LINE: 92
+LINE: 104
+LINE: 142
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 35
+LINE: 41
+LINE: 47
+FILE: system/library/template/basic.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 132
+CODE: public function unzip() {
+LINE: 293
+----------------------------------------------------------------
+MOD: Special Price Percentage
+FILE: catalog/controller/product/product.php
+CODE: $data['special'] = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+LINE: 314
+CODE: $data['special'] = false;
+LINE: 317
+FILE: catalog/view/theme/default/template/product/product.tpl
+CODE: <a class="thumbnail" href="<?php echo $popup; ?>" title="<?php echo $heading_title; ?>"><img src="<?php echo $thumb; ?>" title="<?php echo $heading_title; ?>" alt="<?php echo $heading_title; ?>" /></a>
+LINE: 27
+FILE: catalog/controller/product/category.php
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+LINE: 196
+CODE: $special = false;
+LINE: 199
+CODE: 'price'       => $price,
+LINE: 220
+FILE: catalog/controller/product/compare.php
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+FILE: catalog/controller/product/manufacturer.php
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+LINE: 193
+CODE: $special = false;
+LINE: 196
+CODE: 'price'       => $price,
+LINE: 217
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+LINE: 425
+CODE: $special = false;
+LINE: 428
+CODE: 'price'       => $price,
+LINE: 449
+FILE: catalog/controller/product/search.php
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+LINE: 230
+CODE: $special = false;
+LINE: 233
+CODE: 'price'       => $price,
+LINE: 254
+FILE: catalog/controller/product/special.php
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+LINE: 115
+CODE: $special = false;
+LINE: 118
+CODE: 'price'       => $price,
+LINE: 139
+FILE: catalog/view/theme/default/template/product/category.tpl
+CODE: <div class="product-thumb">
+LINE: 97
+CODE: <strike><?php echo $product['price']; ?></strike> <?php echo $product['special']; ?>
+NOT FOUND!
+FILE: catalog/view/theme/default/template/product/compare.tpl
+CODE: <div class="product-thumb">
+NOT FOUND!
+FILE: catalog/view/theme/default/template/product/manufacturer_info.tpl
+CODE: <div class="product-thumb">
+LINE: 60
+CODE: <strike><?php echo $product['price']; ?></strike> <?php echo $product['special']; ?>
+NOT FOUND!
+FILE: catalog/view/theme/default/template/product/manufacturer_list.tpl
+CODE: <div class="product-thumb">
+NOT FOUND!
+CODE: <div class="product-thumb">
+NOT FOUND!
+FILE: catalog/view/theme/default/template/product/review.tpl
+CODE: <div class="product-thumb">
+NOT FOUND!
+FILE: catalog/view/theme/default/template/product/search.tpl
+CODE: <div class="product-thumb">
+LINE: 112
+CODE: <strike><?php echo $product['price']; ?></strike> <?php echo $product['special']; ?>
+NOT FOUND!
+FILE: catalog/view/theme/default/template/product/special.tpl
+CODE: <div class="product-thumb">
+LINE: 60
+CODE: <strike><?php echo $product['price']; ?></strike> <?php echo $product['special']; ?>
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+LINE: 90
+CODE: $special = false;
+LINE: 93
+CODE: 'price'        => $price,
+LINE: 119
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: <strike><?php echo $product['price']; ?></strike> <?php echo $product['special']; ?>
+NOT FOUND!
+CODE: <strike><?php echo $product['price']; ?></strike> <?php echo $product['special']; ?>
+LINE: 52
+CODE: <strike><?php echo $product['price']; ?></strike> <?php echo $product['special']; ?>
+NOT FOUND!
+CODE: <strike><?php echo $product['price']; ?></strike> <?php echo $product['special']; ?>
+NOT FOUND!
+CODE: <strike><?php echo $product['price']; ?></strike> <?php echo $product['special']; ?>
+NOT FOUND!
+CODE: <strike><?php echo $product['price']; ?></strike> <?php echo $product['special']; ?>
+NOT FOUND!
+CODE: <strike><?php echo $product['price']; ?></strike> <?php echo $product['special']; ?>
+NOT FOUND!
+CODE: <strike><?php echo $product['price']; ?></strike> <?php echo $product['special']; ?>
+NOT FOUND!
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: <link href="catalog/view/theme/default/stylesheet/stylesheet.css" rel="stylesheet">
+LINE: 25
+FILE: catalog/controller/module/account.php
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+FILE: catalog/controller/module/affiliate.php
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+FILE: catalog/controller/module/amazon_login.php
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+FILE: catalog/controller/module/amazon_pay.php
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+FILE: catalog/controller/module/banner.php
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+FILE: catalog/controller/module/bestseller.php
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+FILE: catalog/controller/module/carousel.php
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+FILE: catalog/controller/module/category.php
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+FILE: catalog/controller/module/ebay_listing.php
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+FILE: catalog/controller/module/featured.php
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+LINE: 44
+CODE: $special = false;
+LINE: 47
+CODE: 'price'       => $price,
+LINE: 68
+FILE: catalog/controller/module/filter.php
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+FILE: catalog/controller/module/google_hangouts.php
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+FILE: catalog/controller/module/html.php
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+FILE: catalog/controller/module/information.php
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+FILE: catalog/controller/module/latest.php
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+FILE: catalog/controller/module/laybuy_layout.php
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+FILE: catalog/controller/module/pp_button.php
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+FILE: catalog/controller/module/pp_login.php
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+FILE: catalog/controller/module/sagepay_direct_cards.php
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+FILE: catalog/controller/module/sagepay_server_cards.php
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+FILE: catalog/controller/module/slideshow.php
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+FILE: catalog/controller/module/special.php
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+FILE: catalog/controller/module/store.php
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+LINE: 37
+CODE: $special = false;
+LINE: 40
+CODE: 'price'       => $price,
+LINE: 61
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+LINE: 44
+CODE: $special = false;
+LINE: 47
+CODE: 'price'       => $price,
+LINE: 68
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+LINE: 44
+CODE: $special = false;
+LINE: 47
+CODE: 'price'       => $price,
+LINE: 68
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+FILE: catalog/view/theme/default/template/module/account.tpl
+CODE: <div class="product-thumb transition">
+NOT FOUND!
+FILE: catalog/view/theme/default/template/module/affiliate.tpl
+CODE: <div class="product-thumb transition">
+NOT FOUND!
+FILE: catalog/view/theme/default/template/module/amazon_login.tpl
+CODE: <div class="product-thumb transition">
+NOT FOUND!
+FILE: catalog/view/theme/default/template/module/amazon_pay.tpl
+CODE: <div class="product-thumb transition">
+NOT FOUND!
+FILE: catalog/view/theme/default/template/module/banner.tpl
+CODE: <div class="product-thumb transition">
+NOT FOUND!
+FILE: catalog/view/theme/default/template/module/bestseller.tpl
+CODE: <div class="product-thumb transition">
+LINE: 5
+FILE: catalog/view/theme/default/template/module/carousel.tpl
+CODE: <div class="product-thumb transition">
+NOT FOUND!
+FILE: catalog/view/theme/default/template/module/category.tpl
+CODE: <div class="product-thumb transition">
+NOT FOUND!
+FILE: catalog/view/theme/default/template/module/ebay_listing.tpl
+CODE: <div class="product-thumb transition">
+LINE: 5
+FILE: catalog/view/theme/default/template/module/featured.tpl
+CODE: <div class="product-thumb transition">
+LINE: 5
+FILE: catalog/view/theme/default/template/module/filter.tpl
+CODE: <div class="product-thumb transition">
+NOT FOUND!
+FILE: catalog/view/theme/default/template/module/google_hangouts.tpl
+CODE: <div class="product-thumb transition">
+NOT FOUND!
+FILE: catalog/view/theme/default/template/module/html.tpl
+CODE: <div class="product-thumb transition">
+NOT FOUND!
+FILE: catalog/view/theme/default/template/module/information.tpl
+CODE: <div class="product-thumb transition">
+NOT FOUND!
+FILE: catalog/view/theme/default/template/module/latest.tpl
+CODE: <div class="product-thumb transition">
+LINE: 5
+FILE: catalog/view/theme/default/template/module/laybuy_layout.tpl
+CODE: <div class="product-thumb transition">
+NOT FOUND!
+FILE: catalog/view/theme/default/template/module/pp_button.tpl
+CODE: <div class="product-thumb transition">
+NOT FOUND!
+FILE: catalog/view/theme/default/template/module/pp_login.tpl
+CODE: <div class="product-thumb transition">
+NOT FOUND!
+FILE: catalog/view/theme/default/template/module/sagepay_direct_cards.tpl
+CODE: <div class="product-thumb transition">
+NOT FOUND!
+FILE: catalog/view/theme/default/template/module/sagepay_server_cards.tpl
+CODE: <div class="product-thumb transition">
+NOT FOUND!
+FILE: catalog/view/theme/default/template/module/slideshow.tpl
+CODE: <div class="product-thumb transition">
+NOT FOUND!
+FILE: catalog/view/theme/default/template/module/special.tpl
+CODE: <div class="product-thumb transition">
+LINE: 5
+FILE: catalog/view/theme/default/template/module/store.tpl
+CODE: <div class="product-thumb transition">
+NOT FOUND!
+FILE: catalog/controller/account/wishlist.php
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+LINE: 98
+CODE: $special = false;
+LINE: 101
+CODE: 'price'      => $price,
+LINE: 111
+FILE: catalog/view/theme/default/template/account/wishlist.tpl
+CODE: <b><?php echo $product['special']; ?></b>
+LINE: 50
+----------------------------------------------------------------
+2016-10-31 13:18:17 - MOD: Modification Default
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 34
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+LINE: 92
+LINE: 104
+LINE: 142
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 35
+LINE: 41
+LINE: 47
+FILE: system/library/template/basic.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 132
+CODE: public function unzip() {
+LINE: 293
+----------------------------------------------------------------
+MOD: Special Price Percentage
+FILE: catalog/controller/product/product.php
+CODE: $data['special'] = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+LINE: 314
+CODE: $data['special'] = false;
+LINE: 317
+FILE: catalog/view/theme/default/template/product/product.tpl
+CODE: <a class="thumbnail" href="<?php echo $popup; ?>" title="<?php echo $heading_title; ?>"><img src="<?php echo $thumb; ?>" title="<?php echo $heading_title; ?>" alt="<?php echo $heading_title; ?>" /></a>
+LINE: 27
+FILE: catalog/controller/product/category.php
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+LINE: 196
+CODE: $special = false;
+LINE: 199
+CODE: 'price'       => $price,
+LINE: 220
+FILE: catalog/controller/product/compare.php
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+FILE: catalog/controller/product/manufacturer.php
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+LINE: 193
+CODE: $special = false;
+LINE: 196
+CODE: 'price'       => $price,
+LINE: 217
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+LINE: 425
+CODE: $special = false;
+LINE: 428
+CODE: 'price'       => $price,
+LINE: 449
+FILE: catalog/controller/product/search.php
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+LINE: 230
+CODE: $special = false;
+LINE: 233
+CODE: 'price'       => $price,
+LINE: 254
+FILE: catalog/controller/product/special.php
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+LINE: 115
+CODE: $special = false;
+LINE: 118
+CODE: 'price'       => $price,
+LINE: 139
+FILE: catalog/view/theme/default/template/product/category.tpl
+CODE: <div class="product-thumb">
+LINE: 97
+CODE: <strike><?php echo $product['price']; ?></strike> <?php echo $product['special']; ?>
+NOT FOUND!
+FILE: catalog/view/theme/default/template/product/compare.tpl
+CODE: <div class="product-thumb">
+NOT FOUND!
+FILE: catalog/view/theme/default/template/product/manufacturer_info.tpl
+CODE: <div class="product-thumb">
+LINE: 60
+CODE: <strike><?php echo $product['price']; ?></strike> <?php echo $product['special']; ?>
+NOT FOUND!
+FILE: catalog/view/theme/default/template/product/manufacturer_list.tpl
+CODE: <div class="product-thumb">
+NOT FOUND!
+CODE: <div class="product-thumb">
+NOT FOUND!
+FILE: catalog/view/theme/default/template/product/review.tpl
+CODE: <div class="product-thumb">
+NOT FOUND!
+FILE: catalog/view/theme/default/template/product/search.tpl
+CODE: <div class="product-thumb">
+LINE: 112
+CODE: <strike><?php echo $product['price']; ?></strike> <?php echo $product['special']; ?>
+NOT FOUND!
+FILE: catalog/view/theme/default/template/product/special.tpl
+CODE: <div class="product-thumb">
+LINE: 60
+CODE: <strike><?php echo $product['price']; ?></strike> <?php echo $product['special']; ?>
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+LINE: 90
+CODE: $special = false;
+LINE: 93
+CODE: 'price'        => $price,
+LINE: 119
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: <strike><?php echo $product['price']; ?></strike> <?php echo $product['special']; ?>
+NOT FOUND!
+CODE: <strike><?php echo $product['price']; ?></strike> <?php echo $product['special']; ?>
+LINE: 52
+CODE: <strike><?php echo $product['price']; ?></strike> <?php echo $product['special']; ?>
+NOT FOUND!
+CODE: <strike><?php echo $product['price']; ?></strike> <?php echo $product['special']; ?>
+NOT FOUND!
+CODE: <strike><?php echo $product['price']; ?></strike> <?php echo $product['special']; ?>
+NOT FOUND!
+CODE: <strike><?php echo $product['price']; ?></strike> <?php echo $product['special']; ?>
+NOT FOUND!
+CODE: <strike><?php echo $product['price']; ?></strike> <?php echo $product['special']; ?>
+NOT FOUND!
+CODE: <strike><?php echo $product['price']; ?></strike> <?php echo $product['special']; ?>
+NOT FOUND!
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: <link href="catalog/view/theme/default/stylesheet/stylesheet.css" rel="stylesheet">
+LINE: 25
+FILE: catalog/controller/module/account.php
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+FILE: catalog/controller/module/affiliate.php
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+FILE: catalog/controller/module/amazon_login.php
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+FILE: catalog/controller/module/amazon_pay.php
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+FILE: catalog/controller/module/banner.php
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+FILE: catalog/controller/module/bestseller.php
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+FILE: catalog/controller/module/carousel.php
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+FILE: catalog/controller/module/category.php
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+FILE: catalog/controller/module/ebay_listing.php
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+FILE: catalog/controller/module/featured.php
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+LINE: 44
+CODE: $special = false;
+LINE: 47
+CODE: 'price'       => $price,
+LINE: 68
+FILE: catalog/controller/module/filter.php
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+FILE: catalog/controller/module/google_hangouts.php
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+FILE: catalog/controller/module/html.php
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+FILE: catalog/controller/module/information.php
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+FILE: catalog/controller/module/latest.php
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+FILE: catalog/controller/module/laybuy_layout.php
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+FILE: catalog/controller/module/pp_button.php
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+FILE: catalog/controller/module/pp_login.php
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+FILE: catalog/controller/module/sagepay_direct_cards.php
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+FILE: catalog/controller/module/sagepay_server_cards.php
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+FILE: catalog/controller/module/slideshow.php
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+FILE: catalog/controller/module/special.php
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+FILE: catalog/controller/module/store.php
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+LINE: 37
+CODE: $special = false;
+LINE: 40
+CODE: 'price'       => $price,
+LINE: 61
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+LINE: 44
+CODE: $special = false;
+LINE: 47
+CODE: 'price'       => $price,
+LINE: 68
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+LINE: 44
+CODE: $special = false;
+LINE: 47
+CODE: 'price'       => $price,
+LINE: 68
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+FILE: catalog/view/theme/default/template/module/account.tpl
+CODE: <div class="product-thumb transition">
+NOT FOUND!
+FILE: catalog/view/theme/default/template/module/affiliate.tpl
+CODE: <div class="product-thumb transition">
+NOT FOUND!
+FILE: catalog/view/theme/default/template/module/amazon_login.tpl
+CODE: <div class="product-thumb transition">
+NOT FOUND!
+FILE: catalog/view/theme/default/template/module/amazon_pay.tpl
+CODE: <div class="product-thumb transition">
+NOT FOUND!
+FILE: catalog/view/theme/default/template/module/banner.tpl
+CODE: <div class="product-thumb transition">
+NOT FOUND!
+FILE: catalog/view/theme/default/template/module/bestseller.tpl
+CODE: <div class="product-thumb transition">
+LINE: 5
+FILE: catalog/view/theme/default/template/module/carousel.tpl
+CODE: <div class="product-thumb transition">
+NOT FOUND!
+FILE: catalog/view/theme/default/template/module/category.tpl
+CODE: <div class="product-thumb transition">
+NOT FOUND!
+FILE: catalog/view/theme/default/template/module/ebay_listing.tpl
+CODE: <div class="product-thumb transition">
+LINE: 5
+FILE: catalog/view/theme/default/template/module/featured.tpl
+CODE: <div class="product-thumb transition">
+LINE: 5
+FILE: catalog/view/theme/default/template/module/filter.tpl
+CODE: <div class="product-thumb transition">
+NOT FOUND!
+FILE: catalog/view/theme/default/template/module/google_hangouts.tpl
+CODE: <div class="product-thumb transition">
+NOT FOUND!
+FILE: catalog/view/theme/default/template/module/html.tpl
+CODE: <div class="product-thumb transition">
+NOT FOUND!
+FILE: catalog/view/theme/default/template/module/information.tpl
+CODE: <div class="product-thumb transition">
+NOT FOUND!
+FILE: catalog/view/theme/default/template/module/latest.tpl
+CODE: <div class="product-thumb transition">
+LINE: 5
+FILE: catalog/view/theme/default/template/module/laybuy_layout.tpl
+CODE: <div class="product-thumb transition">
+NOT FOUND!
+FILE: catalog/view/theme/default/template/module/pp_button.tpl
+CODE: <div class="product-thumb transition">
+NOT FOUND!
+FILE: catalog/view/theme/default/template/module/pp_login.tpl
+CODE: <div class="product-thumb transition">
+NOT FOUND!
+FILE: catalog/view/theme/default/template/module/sagepay_direct_cards.tpl
+CODE: <div class="product-thumb transition">
+NOT FOUND!
+FILE: catalog/view/theme/default/template/module/sagepay_server_cards.tpl
+CODE: <div class="product-thumb transition">
+NOT FOUND!
+FILE: catalog/view/theme/default/template/module/slideshow.tpl
+CODE: <div class="product-thumb transition">
+NOT FOUND!
+FILE: catalog/view/theme/default/template/module/special.tpl
+CODE: <div class="product-thumb transition">
+LINE: 5
+FILE: catalog/view/theme/default/template/module/store.tpl
+CODE: <div class="product-thumb transition">
+NOT FOUND!
+FILE: catalog/controller/account/wishlist.php
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+LINE: 98
+CODE: $special = false;
+LINE: 101
+CODE: 'price'      => $price,
+LINE: 111
+FILE: catalog/view/theme/default/template/account/wishlist.tpl
+CODE: <b><?php echo $product['special']; ?></b>
+LINE: 50
+----------------------------------------------------------------
+2016-10-31 13:21:59 - MOD: Modification Default
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 34
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+LINE: 92
+LINE: 104
+LINE: 142
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 35
+LINE: 41
+LINE: 47
+FILE: system/library/template/basic.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 132
+CODE: public function unzip() {
+LINE: 293
+----------------------------------------------------------------
+MOD: Special Price Percentage
+FILE: catalog/controller/product/product.php
+CODE: $data['special'] = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+LINE: 314
+CODE: $data['special'] = false;
+LINE: 317
+FILE: catalog/view/theme/default/template/product/product.tpl
+CODE: <a class="thumbnail" href="<?php echo $popup; ?>" title="<?php echo $heading_title; ?>"><img src="<?php echo $thumb; ?>" title="<?php echo $heading_title; ?>" alt="<?php echo $heading_title; ?>" /></a>
+LINE: 27
+FILE: catalog/controller/product/category.php
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+LINE: 196
+CODE: $special = false;
+LINE: 199
+CODE: 'price'       => $price,
+LINE: 220
+FILE: catalog/controller/product/compare.php
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+FILE: catalog/controller/product/manufacturer.php
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+LINE: 193
+CODE: $special = false;
+LINE: 196
+CODE: 'price'       => $price,
+LINE: 217
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+LINE: 425
+CODE: $special = false;
+LINE: 428
+CODE: 'price'       => $price,
+LINE: 449
+FILE: catalog/controller/product/search.php
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+LINE: 230
+CODE: $special = false;
+LINE: 233
+CODE: 'price'       => $price,
+LINE: 254
+FILE: catalog/controller/product/special.php
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+LINE: 115
+CODE: $special = false;
+LINE: 118
+CODE: 'price'       => $price,
+LINE: 139
+FILE: catalog/view/theme/default/template/product/category.tpl
+CODE: <div class="product-thumb">
+LINE: 97
+CODE: <strike><?php echo $product['price']; ?></strike> <?php echo $product['special']; ?>
+NOT FOUND!
+FILE: catalog/view/theme/default/template/product/compare.tpl
+CODE: <div class="product-thumb">
+NOT FOUND!
+FILE: catalog/view/theme/default/template/product/manufacturer_info.tpl
+CODE: <div class="product-thumb">
+LINE: 60
+CODE: <strike><?php echo $product['price']; ?></strike> <?php echo $product['special']; ?>
+NOT FOUND!
+FILE: catalog/view/theme/default/template/product/manufacturer_list.tpl
+CODE: <div class="product-thumb">
+NOT FOUND!
+CODE: <div class="product-thumb">
+NOT FOUND!
+FILE: catalog/view/theme/default/template/product/review.tpl
+CODE: <div class="product-thumb">
+NOT FOUND!
+FILE: catalog/view/theme/default/template/product/search.tpl
+CODE: <div class="product-thumb">
+LINE: 112
+CODE: <strike><?php echo $product['price']; ?></strike> <?php echo $product['special']; ?>
+NOT FOUND!
+FILE: catalog/view/theme/default/template/product/special.tpl
+CODE: <div class="product-thumb">
+LINE: 60
+CODE: <strike><?php echo $product['price']; ?></strike> <?php echo $product['special']; ?>
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+LINE: 90
+CODE: $special = false;
+LINE: 93
+CODE: 'price'        => $price,
+LINE: 119
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: <strike><?php echo $product['price']; ?></strike> <?php echo $product['special']; ?>
+NOT FOUND!
+CODE: <strike><?php echo $product['price']; ?></strike> <?php echo $product['special']; ?>
+LINE: 52
+CODE: <strike><?php echo $product['price']; ?></strike> <?php echo $product['special']; ?>
+NOT FOUND!
+CODE: <strike><?php echo $product['price']; ?></strike> <?php echo $product['special']; ?>
+NOT FOUND!
+CODE: <strike><?php echo $product['price']; ?></strike> <?php echo $product['special']; ?>
+NOT FOUND!
+CODE: <strike><?php echo $product['price']; ?></strike> <?php echo $product['special']; ?>
+NOT FOUND!
+CODE: <strike><?php echo $product['price']; ?></strike> <?php echo $product['special']; ?>
+NOT FOUND!
+CODE: <strike><?php echo $product['price']; ?></strike> <?php echo $product['special']; ?>
+NOT FOUND!
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: <link href="catalog/view/theme/default/stylesheet/stylesheet.css" rel="stylesheet">
+LINE: 25
+FILE: catalog/controller/module/account.php
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+FILE: catalog/controller/module/affiliate.php
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+FILE: catalog/controller/module/amazon_login.php
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+FILE: catalog/controller/module/amazon_pay.php
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+FILE: catalog/controller/module/banner.php
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+FILE: catalog/controller/module/bestseller.php
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+FILE: catalog/controller/module/carousel.php
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+FILE: catalog/controller/module/category.php
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+FILE: catalog/controller/module/ebay_listing.php
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+FILE: catalog/controller/module/featured.php
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+LINE: 44
+CODE: $special = false;
+LINE: 47
+CODE: 'price'       => $price,
+LINE: 68
+FILE: catalog/controller/module/filter.php
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+FILE: catalog/controller/module/google_hangouts.php
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+FILE: catalog/controller/module/html.php
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+FILE: catalog/controller/module/information.php
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+FILE: catalog/controller/module/latest.php
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+FILE: catalog/controller/module/laybuy_layout.php
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+FILE: catalog/controller/module/pp_button.php
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+FILE: catalog/controller/module/pp_login.php
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+FILE: catalog/controller/module/sagepay_direct_cards.php
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+FILE: catalog/controller/module/sagepay_server_cards.php
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+FILE: catalog/controller/module/slideshow.php
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+FILE: catalog/controller/module/special.php
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+FILE: catalog/controller/module/store.php
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+LINE: 37
+CODE: $special = false;
+LINE: 40
+CODE: 'price'       => $price,
+LINE: 61
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+LINE: 44
+CODE: $special = false;
+LINE: 47
+CODE: 'price'       => $price,
+LINE: 68
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+LINE: 44
+CODE: $special = false;
+LINE: 47
+CODE: 'price'       => $price,
+LINE: 68
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+FILE: catalog/view/theme/default/template/module/account.tpl
+CODE: <div class="product-thumb transition">
+NOT FOUND!
+FILE: catalog/view/theme/default/template/module/affiliate.tpl
+CODE: <div class="product-thumb transition">
+NOT FOUND!
+FILE: catalog/view/theme/default/template/module/amazon_login.tpl
+CODE: <div class="product-thumb transition">
+NOT FOUND!
+FILE: catalog/view/theme/default/template/module/amazon_pay.tpl
+CODE: <div class="product-thumb transition">
+NOT FOUND!
+FILE: catalog/view/theme/default/template/module/banner.tpl
+CODE: <div class="product-thumb transition">
+NOT FOUND!
+FILE: catalog/view/theme/default/template/module/bestseller.tpl
+CODE: <div class="product-thumb transition">
+LINE: 5
+FILE: catalog/view/theme/default/template/module/carousel.tpl
+CODE: <div class="product-thumb transition">
+NOT FOUND!
+FILE: catalog/view/theme/default/template/module/category.tpl
+CODE: <div class="product-thumb transition">
+NOT FOUND!
+FILE: catalog/view/theme/default/template/module/ebay_listing.tpl
+CODE: <div class="product-thumb transition">
+LINE: 5
+FILE: catalog/view/theme/default/template/module/featured.tpl
+CODE: <div class="product-thumb transition">
+LINE: 5
+FILE: catalog/view/theme/default/template/module/filter.tpl
+CODE: <div class="product-thumb transition">
+NOT FOUND!
+FILE: catalog/view/theme/default/template/module/google_hangouts.tpl
+CODE: <div class="product-thumb transition">
+NOT FOUND!
+FILE: catalog/view/theme/default/template/module/html.tpl
+CODE: <div class="product-thumb transition">
+NOT FOUND!
+FILE: catalog/view/theme/default/template/module/information.tpl
+CODE: <div class="product-thumb transition">
+NOT FOUND!
+FILE: catalog/view/theme/default/template/module/latest.tpl
+CODE: <div class="product-thumb transition">
+LINE: 5
+FILE: catalog/view/theme/default/template/module/laybuy_layout.tpl
+CODE: <div class="product-thumb transition">
+NOT FOUND!
+FILE: catalog/view/theme/default/template/module/pp_button.tpl
+CODE: <div class="product-thumb transition">
+NOT FOUND!
+FILE: catalog/view/theme/default/template/module/pp_login.tpl
+CODE: <div class="product-thumb transition">
+NOT FOUND!
+FILE: catalog/view/theme/default/template/module/sagepay_direct_cards.tpl
+CODE: <div class="product-thumb transition">
+NOT FOUND!
+FILE: catalog/view/theme/default/template/module/sagepay_server_cards.tpl
+CODE: <div class="product-thumb transition">
+NOT FOUND!
+FILE: catalog/view/theme/default/template/module/slideshow.tpl
+CODE: <div class="product-thumb transition">
+NOT FOUND!
+FILE: catalog/view/theme/default/template/module/special.tpl
+CODE: <div class="product-thumb transition">
+LINE: 5
+FILE: catalog/view/theme/default/template/module/store.tpl
+CODE: <div class="product-thumb transition">
+NOT FOUND!
+FILE: catalog/controller/account/wishlist.php
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+LINE: 98
+CODE: $special = false;
+LINE: 101
+CODE: 'price'      => $price,
+LINE: 111
+FILE: catalog/view/theme/default/template/account/wishlist.tpl
+CODE: <b><?php echo $product['special']; ?></b>
+LINE: 50
+----------------------------------------------------------------
+2016-10-31 18:28:38 - MOD: Modification Default
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 34
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+LINE: 92
+LINE: 104
+LINE: 142
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 35
+LINE: 41
+LINE: 47
+FILE: system/library/template/basic.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 132
+CODE: public function unzip() {
+LINE: 293
+----------------------------------------------------------------
+MOD: Special Price Percentage
+FILE: catalog/controller/product/product.php
+CODE: $data['special'] = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+LINE: 314
+CODE: $data['special'] = false;
+LINE: 317
+FILE: catalog/view/theme/default/template/product/product.tpl
+CODE: <a class="thumbnail" href="<?php echo $popup; ?>" title="<?php echo $heading_title; ?>"><img src="<?php echo $thumb; ?>" title="<?php echo $heading_title; ?>" alt="<?php echo $heading_title; ?>" /></a>
+LINE: 27
+FILE: catalog/controller/product/category.php
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+LINE: 196
+CODE: $special = false;
+LINE: 199
+CODE: 'price'       => $price,
+LINE: 220
+FILE: catalog/controller/product/compare.php
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+FILE: catalog/controller/product/manufacturer.php
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+LINE: 193
+CODE: $special = false;
+LINE: 196
+CODE: 'price'       => $price,
+LINE: 217
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+LINE: 425
+CODE: $special = false;
+LINE: 428
+CODE: 'price'       => $price,
+LINE: 449
+FILE: catalog/controller/product/search.php
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+LINE: 230
+CODE: $special = false;
+LINE: 233
+CODE: 'price'       => $price,
+LINE: 254
+FILE: catalog/controller/product/special.php
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+LINE: 115
+CODE: $special = false;
+LINE: 118
+CODE: 'price'       => $price,
+LINE: 139
+FILE: catalog/view/theme/default/template/product/category.tpl
+CODE: <div class="product-thumb">
+LINE: 97
+CODE: <strike><?php echo $product['price']; ?></strike> <?php echo $product['special']; ?>
+NOT FOUND!
+FILE: catalog/view/theme/default/template/product/compare.tpl
+CODE: <div class="product-thumb">
+NOT FOUND!
+FILE: catalog/view/theme/default/template/product/manufacturer_info.tpl
+CODE: <div class="product-thumb">
+LINE: 60
+CODE: <strike><?php echo $product['price']; ?></strike> <?php echo $product['special']; ?>
+NOT FOUND!
+FILE: catalog/view/theme/default/template/product/manufacturer_list.tpl
+CODE: <div class="product-thumb">
+NOT FOUND!
+CODE: <div class="product-thumb">
+NOT FOUND!
+FILE: catalog/view/theme/default/template/product/review.tpl
+CODE: <div class="product-thumb">
+NOT FOUND!
+FILE: catalog/view/theme/default/template/product/search.tpl
+CODE: <div class="product-thumb">
+LINE: 112
+CODE: <strike><?php echo $product['price']; ?></strike> <?php echo $product['special']; ?>
+NOT FOUND!
+FILE: catalog/view/theme/default/template/product/special.tpl
+CODE: <div class="product-thumb">
+LINE: 60
+CODE: <strike><?php echo $product['price']; ?></strike> <?php echo $product['special']; ?>
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+LINE: 90
+CODE: $special = false;
+LINE: 93
+CODE: 'price'        => $price,
+LINE: 119
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: <strike><?php echo $product['price']; ?></strike> <?php echo $product['special']; ?>
+NOT FOUND!
+CODE: <strike><?php echo $product['price']; ?></strike> <?php echo $product['special']; ?>
+LINE: 52
+CODE: <strike><?php echo $product['price']; ?></strike> <?php echo $product['special']; ?>
+NOT FOUND!
+CODE: <strike><?php echo $product['price']; ?></strike> <?php echo $product['special']; ?>
+NOT FOUND!
+CODE: <strike><?php echo $product['price']; ?></strike> <?php echo $product['special']; ?>
+NOT FOUND!
+CODE: <strike><?php echo $product['price']; ?></strike> <?php echo $product['special']; ?>
+NOT FOUND!
+CODE: <strike><?php echo $product['price']; ?></strike> <?php echo $product['special']; ?>
+NOT FOUND!
+CODE: <strike><?php echo $product['price']; ?></strike> <?php echo $product['special']; ?>
+NOT FOUND!
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: <link href="catalog/view/theme/default/stylesheet/stylesheet.css" rel="stylesheet">
+LINE: 25
+FILE: catalog/controller/module/account.php
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+FILE: catalog/controller/module/affiliate.php
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+FILE: catalog/controller/module/amazon_login.php
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+FILE: catalog/controller/module/amazon_pay.php
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+FILE: catalog/controller/module/banner.php
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+FILE: catalog/controller/module/bestseller.php
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+FILE: catalog/controller/module/carousel.php
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+FILE: catalog/controller/module/category.php
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+FILE: catalog/controller/module/ebay_listing.php
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+FILE: catalog/controller/module/featured.php
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+LINE: 44
+CODE: $special = false;
+LINE: 47
+CODE: 'price'       => $price,
+LINE: 68
+FILE: catalog/controller/module/filter.php
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+FILE: catalog/controller/module/google_hangouts.php
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+FILE: catalog/controller/module/html.php
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+FILE: catalog/controller/module/information.php
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+FILE: catalog/controller/module/latest.php
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+FILE: catalog/controller/module/laybuy_layout.php
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+FILE: catalog/controller/module/pp_button.php
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+FILE: catalog/controller/module/pp_login.php
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+FILE: catalog/controller/module/sagepay_direct_cards.php
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+FILE: catalog/controller/module/sagepay_server_cards.php
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+FILE: catalog/controller/module/slideshow.php
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+FILE: catalog/controller/module/special.php
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+FILE: catalog/controller/module/store.php
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+LINE: 37
+CODE: $special = false;
+LINE: 40
+CODE: 'price'       => $price,
+LINE: 61
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+LINE: 44
+CODE: $special = false;
+LINE: 47
+CODE: 'price'       => $price,
+LINE: 68
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+LINE: 44
+CODE: $special = false;
+LINE: 47
+CODE: 'price'       => $price,
+LINE: 68
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+FILE: catalog/view/theme/default/template/module/account.tpl
+CODE: <div class="product-thumb transition">
+NOT FOUND!
+FILE: catalog/view/theme/default/template/module/affiliate.tpl
+CODE: <div class="product-thumb transition">
+NOT FOUND!
+FILE: catalog/view/theme/default/template/module/amazon_login.tpl
+CODE: <div class="product-thumb transition">
+NOT FOUND!
+FILE: catalog/view/theme/default/template/module/amazon_pay.tpl
+CODE: <div class="product-thumb transition">
+NOT FOUND!
+FILE: catalog/view/theme/default/template/module/banner.tpl
+CODE: <div class="product-thumb transition">
+NOT FOUND!
+FILE: catalog/view/theme/default/template/module/bestseller.tpl
+CODE: <div class="product-thumb transition">
+LINE: 5
+FILE: catalog/view/theme/default/template/module/carousel.tpl
+CODE: <div class="product-thumb transition">
+NOT FOUND!
+FILE: catalog/view/theme/default/template/module/category.tpl
+CODE: <div class="product-thumb transition">
+NOT FOUND!
+FILE: catalog/view/theme/default/template/module/ebay_listing.tpl
+CODE: <div class="product-thumb transition">
+LINE: 5
+FILE: catalog/view/theme/default/template/module/featured.tpl
+CODE: <div class="product-thumb transition">
+LINE: 5
+FILE: catalog/view/theme/default/template/module/filter.tpl
+CODE: <div class="product-thumb transition">
+NOT FOUND!
+FILE: catalog/view/theme/default/template/module/google_hangouts.tpl
+CODE: <div class="product-thumb transition">
+NOT FOUND!
+FILE: catalog/view/theme/default/template/module/html.tpl
+CODE: <div class="product-thumb transition">
+NOT FOUND!
+FILE: catalog/view/theme/default/template/module/information.tpl
+CODE: <div class="product-thumb transition">
+NOT FOUND!
+FILE: catalog/view/theme/default/template/module/latest.tpl
+CODE: <div class="product-thumb transition">
+LINE: 5
+FILE: catalog/view/theme/default/template/module/laybuy_layout.tpl
+CODE: <div class="product-thumb transition">
+NOT FOUND!
+FILE: catalog/view/theme/default/template/module/pp_button.tpl
+CODE: <div class="product-thumb transition">
+NOT FOUND!
+FILE: catalog/view/theme/default/template/module/pp_login.tpl
+CODE: <div class="product-thumb transition">
+NOT FOUND!
+FILE: catalog/view/theme/default/template/module/sagepay_direct_cards.tpl
+CODE: <div class="product-thumb transition">
+NOT FOUND!
+FILE: catalog/view/theme/default/template/module/sagepay_server_cards.tpl
+CODE: <div class="product-thumb transition">
+NOT FOUND!
+FILE: catalog/view/theme/default/template/module/slideshow.tpl
+CODE: <div class="product-thumb transition">
+NOT FOUND!
+FILE: catalog/view/theme/default/template/module/special.tpl
+CODE: <div class="product-thumb transition">
+LINE: 5
+FILE: catalog/view/theme/default/template/module/store.tpl
+CODE: <div class="product-thumb transition">
+NOT FOUND!
+FILE: catalog/controller/account/wishlist.php
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+LINE: 98
+CODE: $special = false;
+LINE: 101
+CODE: 'price'      => $price,
+LINE: 111
+FILE: catalog/view/theme/default/template/account/wishlist.tpl
+CODE: <b><?php echo $product['special']; ?></b>
+LINE: 50
+----------------------------------------------------------------
+2016-10-31 18:29:14 - MOD: Modification Default
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 34
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+LINE: 92
+LINE: 104
+LINE: 142
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 35
+LINE: 41
+LINE: 47
+FILE: system/library/template/basic.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 132
+CODE: public function unzip() {
+LINE: 293
+----------------------------------------------------------------
+MOD: Special Price Percentage
+FILE: catalog/controller/product/product.php
+CODE: $data['special'] = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+LINE: 314
+CODE: $data['special'] = false;
+LINE: 317
+FILE: catalog/view/theme/default/template/product/product.tpl
+CODE: <a class="thumbnail" href="<?php echo $popup; ?>" title="<?php echo $heading_title; ?>"><img src="<?php echo $thumb; ?>" title="<?php echo $heading_title; ?>" alt="<?php echo $heading_title; ?>" /></a>
+LINE: 27
+FILE: catalog/controller/product/category.php
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+LINE: 196
+CODE: $special = false;
+LINE: 199
+CODE: 'price'       => $price,
+LINE: 220
+FILE: catalog/controller/product/compare.php
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+FILE: catalog/controller/product/manufacturer.php
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+LINE: 193
+CODE: $special = false;
+LINE: 196
+CODE: 'price'       => $price,
+LINE: 217
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+LINE: 425
+CODE: $special = false;
+LINE: 428
+CODE: 'price'       => $price,
+LINE: 449
+FILE: catalog/controller/product/search.php
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+LINE: 230
+CODE: $special = false;
+LINE: 233
+CODE: 'price'       => $price,
+LINE: 254
+FILE: catalog/controller/product/special.php
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+LINE: 115
+CODE: $special = false;
+LINE: 118
+CODE: 'price'       => $price,
+LINE: 139
+FILE: catalog/view/theme/default/template/product/category.tpl
+CODE: <div class="product-thumb">
+LINE: 97
+CODE: <strike><?php echo $product['price']; ?></strike> <?php echo $product['special']; ?>
+NOT FOUND!
+FILE: catalog/view/theme/default/template/product/compare.tpl
+CODE: <div class="product-thumb">
+NOT FOUND!
+FILE: catalog/view/theme/default/template/product/manufacturer_info.tpl
+CODE: <div class="product-thumb">
+LINE: 60
+CODE: <strike><?php echo $product['price']; ?></strike> <?php echo $product['special']; ?>
+NOT FOUND!
+FILE: catalog/view/theme/default/template/product/manufacturer_list.tpl
+CODE: <div class="product-thumb">
+NOT FOUND!
+CODE: <div class="product-thumb">
+NOT FOUND!
+FILE: catalog/view/theme/default/template/product/review.tpl
+CODE: <div class="product-thumb">
+NOT FOUND!
+FILE: catalog/view/theme/default/template/product/search.tpl
+CODE: <div class="product-thumb">
+LINE: 112
+CODE: <strike><?php echo $product['price']; ?></strike> <?php echo $product['special']; ?>
+NOT FOUND!
+FILE: catalog/view/theme/default/template/product/special.tpl
+CODE: <div class="product-thumb">
+LINE: 60
+CODE: <strike><?php echo $product['price']; ?></strike> <?php echo $product['special']; ?>
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+LINE: 90
+CODE: $special = false;
+LINE: 93
+CODE: 'price'        => $price,
+LINE: 119
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: <strike><?php echo $product['price']; ?></strike> <?php echo $product['special']; ?>
+NOT FOUND!
+CODE: <strike><?php echo $product['price']; ?></strike> <?php echo $product['special']; ?>
+LINE: 52
+CODE: <strike><?php echo $product['price']; ?></strike> <?php echo $product['special']; ?>
+NOT FOUND!
+CODE: <strike><?php echo $product['price']; ?></strike> <?php echo $product['special']; ?>
+NOT FOUND!
+CODE: <strike><?php echo $product['price']; ?></strike> <?php echo $product['special']; ?>
+NOT FOUND!
+CODE: <strike><?php echo $product['price']; ?></strike> <?php echo $product['special']; ?>
+NOT FOUND!
+CODE: <strike><?php echo $product['price']; ?></strike> <?php echo $product['special']; ?>
+NOT FOUND!
+CODE: <strike><?php echo $product['price']; ?></strike> <?php echo $product['special']; ?>
+NOT FOUND!
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: <link href="catalog/view/theme/default/stylesheet/stylesheet.css" rel="stylesheet">
+LINE: 25
+FILE: catalog/controller/module/account.php
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+FILE: catalog/controller/module/affiliate.php
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+FILE: catalog/controller/module/amazon_login.php
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+FILE: catalog/controller/module/amazon_pay.php
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+FILE: catalog/controller/module/banner.php
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+FILE: catalog/controller/module/bestseller.php
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+FILE: catalog/controller/module/carousel.php
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+FILE: catalog/controller/module/category.php
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+FILE: catalog/controller/module/ebay_listing.php
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+FILE: catalog/controller/module/featured.php
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+LINE: 44
+CODE: $special = false;
+LINE: 47
+CODE: 'price'       => $price,
+LINE: 68
+FILE: catalog/controller/module/filter.php
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+FILE: catalog/controller/module/google_hangouts.php
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+FILE: catalog/controller/module/html.php
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+FILE: catalog/controller/module/information.php
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+FILE: catalog/controller/module/latest.php
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+FILE: catalog/controller/module/laybuy_layout.php
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+FILE: catalog/controller/module/pp_button.php
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+FILE: catalog/controller/module/pp_login.php
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+FILE: catalog/controller/module/sagepay_direct_cards.php
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+FILE: catalog/controller/module/sagepay_server_cards.php
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+FILE: catalog/controller/module/slideshow.php
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+FILE: catalog/controller/module/special.php
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+FILE: catalog/controller/module/store.php
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+LINE: 37
+CODE: $special = false;
+LINE: 40
+CODE: 'price'       => $price,
+LINE: 61
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+LINE: 44
+CODE: $special = false;
+LINE: 47
+CODE: 'price'       => $price,
+LINE: 68
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+LINE: 44
+CODE: $special = false;
+LINE: 47
+CODE: 'price'       => $price,
+LINE: 68
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+FILE: catalog/view/theme/default/template/module/account.tpl
+CODE: <div class="product-thumb transition">
+NOT FOUND!
+FILE: catalog/view/theme/default/template/module/affiliate.tpl
+CODE: <div class="product-thumb transition">
+NOT FOUND!
+FILE: catalog/view/theme/default/template/module/amazon_login.tpl
+CODE: <div class="product-thumb transition">
+NOT FOUND!
+FILE: catalog/view/theme/default/template/module/amazon_pay.tpl
+CODE: <div class="product-thumb transition">
+NOT FOUND!
+FILE: catalog/view/theme/default/template/module/banner.tpl
+CODE: <div class="product-thumb transition">
+NOT FOUND!
+FILE: catalog/view/theme/default/template/module/bestseller.tpl
+CODE: <div class="product-thumb transition">
+LINE: 5
+FILE: catalog/view/theme/default/template/module/carousel.tpl
+CODE: <div class="product-thumb transition">
+NOT FOUND!
+FILE: catalog/view/theme/default/template/module/category.tpl
+CODE: <div class="product-thumb transition">
+NOT FOUND!
+FILE: catalog/view/theme/default/template/module/ebay_listing.tpl
+CODE: <div class="product-thumb transition">
+LINE: 5
+FILE: catalog/view/theme/default/template/module/featured.tpl
+CODE: <div class="product-thumb transition">
+LINE: 5
+FILE: catalog/view/theme/default/template/module/filter.tpl
+CODE: <div class="product-thumb transition">
+NOT FOUND!
+FILE: catalog/view/theme/default/template/module/google_hangouts.tpl
+CODE: <div class="product-thumb transition">
+NOT FOUND!
+FILE: catalog/view/theme/default/template/module/html.tpl
+CODE: <div class="product-thumb transition">
+NOT FOUND!
+FILE: catalog/view/theme/default/template/module/information.tpl
+CODE: <div class="product-thumb transition">
+NOT FOUND!
+FILE: catalog/view/theme/default/template/module/latest.tpl
+CODE: <div class="product-thumb transition">
+LINE: 5
+FILE: catalog/view/theme/default/template/module/laybuy_layout.tpl
+CODE: <div class="product-thumb transition">
+NOT FOUND!
+FILE: catalog/view/theme/default/template/module/pp_button.tpl
+CODE: <div class="product-thumb transition">
+NOT FOUND!
+FILE: catalog/view/theme/default/template/module/pp_login.tpl
+CODE: <div class="product-thumb transition">
+NOT FOUND!
+FILE: catalog/view/theme/default/template/module/sagepay_direct_cards.tpl
+CODE: <div class="product-thumb transition">
+NOT FOUND!
+FILE: catalog/view/theme/default/template/module/sagepay_server_cards.tpl
+CODE: <div class="product-thumb transition">
+NOT FOUND!
+FILE: catalog/view/theme/default/template/module/slideshow.tpl
+CODE: <div class="product-thumb transition">
+NOT FOUND!
+FILE: catalog/view/theme/default/template/module/special.tpl
+CODE: <div class="product-thumb transition">
+LINE: 5
+FILE: catalog/view/theme/default/template/module/store.tpl
+CODE: <div class="product-thumb transition">
+NOT FOUND!
+FILE: catalog/controller/account/wishlist.php
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+LINE: 98
+CODE: $special = false;
+LINE: 101
+CODE: 'price'      => $price,
+LINE: 111
+FILE: catalog/view/theme/default/template/account/wishlist.tpl
+CODE: <b><?php echo $product['special']; ?></b>
+LINE: 50
+----------------------------------------------------------------
+2016-10-31 18:30:12 - MOD: Modification Default
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 34
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+LINE: 92
+LINE: 104
+LINE: 142
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 35
+LINE: 41
+LINE: 47
+FILE: system/library/template/basic.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 132
+CODE: public function unzip() {
+LINE: 293
+----------------------------------------------------------------
+MOD: Special Price Percentage
+FILE: catalog/controller/product/product.php
+CODE: $data['special'] = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+LINE: 314
+CODE: $data['special'] = false;
+LINE: 317
+FILE: catalog/view/theme/default/template/product/product.tpl
+CODE: <a class="thumbnail" href="<?php echo $popup; ?>" title="<?php echo $heading_title; ?>"><img src="<?php echo $thumb; ?>" title="<?php echo $heading_title; ?>" alt="<?php echo $heading_title; ?>" /></a>
+LINE: 27
+FILE: catalog/controller/product/category.php
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+LINE: 196
+CODE: $special = false;
+LINE: 199
+CODE: 'price'       => $price,
+LINE: 220
+FILE: catalog/controller/product/compare.php
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+FILE: catalog/controller/product/manufacturer.php
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+LINE: 193
+CODE: $special = false;
+LINE: 196
+CODE: 'price'       => $price,
+LINE: 217
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+LINE: 425
+CODE: $special = false;
+LINE: 428
+CODE: 'price'       => $price,
+LINE: 449
+FILE: catalog/controller/product/search.php
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+LINE: 230
+CODE: $special = false;
+LINE: 233
+CODE: 'price'       => $price,
+LINE: 254
+FILE: catalog/controller/product/special.php
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+LINE: 115
+CODE: $special = false;
+LINE: 118
+CODE: 'price'       => $price,
+LINE: 139
+FILE: catalog/view/theme/default/template/product/category.tpl
+CODE: <div class="product-thumb">
+LINE: 97
+CODE: <strike><?php echo $product['price']; ?></strike> <?php echo $product['special']; ?>
+NOT FOUND!
+FILE: catalog/view/theme/default/template/product/compare.tpl
+CODE: <div class="product-thumb">
+NOT FOUND!
+FILE: catalog/view/theme/default/template/product/manufacturer_info.tpl
+CODE: <div class="product-thumb">
+LINE: 60
+CODE: <strike><?php echo $product['price']; ?></strike> <?php echo $product['special']; ?>
+NOT FOUND!
+FILE: catalog/view/theme/default/template/product/manufacturer_list.tpl
+CODE: <div class="product-thumb">
+NOT FOUND!
+CODE: <div class="product-thumb">
+NOT FOUND!
+FILE: catalog/view/theme/default/template/product/review.tpl
+CODE: <div class="product-thumb">
+NOT FOUND!
+FILE: catalog/view/theme/default/template/product/search.tpl
+CODE: <div class="product-thumb">
+LINE: 112
+CODE: <strike><?php echo $product['price']; ?></strike> <?php echo $product['special']; ?>
+NOT FOUND!
+FILE: catalog/view/theme/default/template/product/special.tpl
+CODE: <div class="product-thumb">
+LINE: 60
+CODE: <strike><?php echo $product['price']; ?></strike> <?php echo $product['special']; ?>
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+LINE: 90
+CODE: $special = false;
+LINE: 93
+CODE: 'price'        => $price,
+LINE: 119
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: <strike><?php echo $product['price']; ?></strike> <?php echo $product['special']; ?>
+NOT FOUND!
+CODE: <strike><?php echo $product['price']; ?></strike> <?php echo $product['special']; ?>
+LINE: 52
+CODE: <strike><?php echo $product['price']; ?></strike> <?php echo $product['special']; ?>
+NOT FOUND!
+CODE: <strike><?php echo $product['price']; ?></strike> <?php echo $product['special']; ?>
+NOT FOUND!
+CODE: <strike><?php echo $product['price']; ?></strike> <?php echo $product['special']; ?>
+NOT FOUND!
+CODE: <strike><?php echo $product['price']; ?></strike> <?php echo $product['special']; ?>
+NOT FOUND!
+CODE: <strike><?php echo $product['price']; ?></strike> <?php echo $product['special']; ?>
+NOT FOUND!
+CODE: <strike><?php echo $product['price']; ?></strike> <?php echo $product['special']; ?>
+NOT FOUND!
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: <link href="catalog/view/theme/default/stylesheet/stylesheet.css" rel="stylesheet">
+LINE: 25
+FILE: catalog/controller/module/account.php
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+FILE: catalog/controller/module/affiliate.php
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+FILE: catalog/controller/module/amazon_login.php
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+FILE: catalog/controller/module/amazon_pay.php
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+FILE: catalog/controller/module/banner.php
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+FILE: catalog/controller/module/bestseller.php
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+FILE: catalog/controller/module/carousel.php
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+FILE: catalog/controller/module/category.php
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+FILE: catalog/controller/module/ebay_listing.php
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+FILE: catalog/controller/module/featured.php
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+LINE: 44
+CODE: $special = false;
+LINE: 47
+CODE: 'price'       => $price,
+LINE: 68
+FILE: catalog/controller/module/filter.php
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+FILE: catalog/controller/module/google_hangouts.php
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+FILE: catalog/controller/module/html.php
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+FILE: catalog/controller/module/information.php
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+FILE: catalog/controller/module/latest.php
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+FILE: catalog/controller/module/laybuy_layout.php
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+FILE: catalog/controller/module/pp_button.php
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+FILE: catalog/controller/module/pp_login.php
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+FILE: catalog/controller/module/sagepay_direct_cards.php
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+FILE: catalog/controller/module/sagepay_server_cards.php
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+FILE: catalog/controller/module/slideshow.php
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+FILE: catalog/controller/module/special.php
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+FILE: catalog/controller/module/store.php
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+LINE: 37
+CODE: $special = false;
+LINE: 40
+CODE: 'price'       => $price,
+LINE: 61
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+LINE: 44
+CODE: $special = false;
+LINE: 47
+CODE: 'price'       => $price,
+LINE: 68
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+LINE: 44
+CODE: $special = false;
+LINE: 47
+CODE: 'price'       => $price,
+LINE: 68
+CODE: $special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+NOT FOUND!
+FILE: catalog/view/theme/default/template/module/account.tpl
+CODE: <div class="product-thumb transition">
+NOT FOUND!
+FILE: catalog/view/theme/default/template/module/affiliate.tpl
+CODE: <div class="product-thumb transition">
+NOT FOUND!
+FILE: catalog/view/theme/default/template/module/amazon_login.tpl
+CODE: <div class="product-thumb transition">
+NOT FOUND!
+FILE: catalog/view/theme/default/template/module/amazon_pay.tpl
+CODE: <div class="product-thumb transition">
+NOT FOUND!
+FILE: catalog/view/theme/default/template/module/banner.tpl
+CODE: <div class="product-thumb transition">
+NOT FOUND!
+FILE: catalog/view/theme/default/template/module/bestseller.tpl
+CODE: <div class="product-thumb transition">
+LINE: 5
+FILE: catalog/view/theme/default/template/module/carousel.tpl
+CODE: <div class="product-thumb transition">
+NOT FOUND!
+FILE: catalog/view/theme/default/template/module/category.tpl
+CODE: <div class="product-thumb transition">
+NOT FOUND!
+FILE: catalog/view/theme/default/template/module/ebay_listing.tpl
+CODE: <div class="product-thumb transition">
+LINE: 5
+FILE: catalog/view/theme/default/template/module/featured.tpl
+CODE: <div class="product-thumb transition">
+LINE: 5
+FILE: catalog/view/theme/default/template/module/filter.tpl
+CODE: <div class="product-thumb transition">
+NOT FOUND!
+FILE: catalog/view/theme/default/template/module/google_hangouts.tpl
+CODE: <div class="product-thumb transition">
+NOT FOUND!
+FILE: catalog/view/theme/default/template/module/html.tpl
+CODE: <div class="product-thumb transition">
+NOT FOUND!
+FILE: catalog/view/theme/default/template/module/information.tpl
+CODE: <div class="product-thumb transition">
+NOT FOUND!
+FILE: catalog/view/theme/default/template/module/latest.tpl
+CODE: <div class="product-thumb transition">
+LINE: 5
+FILE: catalog/view/theme/default/template/module/laybuy_layout.tpl
+CODE: <div class="product-thumb transition">
+NOT FOUND!
+FILE: catalog/view/theme/default/template/module/pp_button.tpl
+CODE: <div class="product-thumb transition">
+NOT FOUND!
+FILE: catalog/view/theme/default/template/module/pp_login.tpl
+CODE: <div class="product-thumb transition">
+NOT FOUND!
+FILE: catalog/view/theme/default/template/module/sagepay_direct_cards.tpl
+CODE: <div class="product-thumb transition">
+NOT FOUND!
+FILE: catalog/view/theme/default/template/module/sagepay_server_cards.tpl
+CODE: <div class="product-thumb transition">
+NOT FOUND!
+FILE: catalog/view/theme/default/template/module/slideshow.tpl
+CODE: <div class="product-thumb transition">
+NOT FOUND!
+FILE: catalog/view/theme/default/template/module/special.tpl
+CODE: <div class="product-thumb transition">
+LINE: 5
+FILE: catalog/view/theme/default/template/module/store.tpl
+CODE: <div class="product-thumb transition">
+NOT FOUND!
+FILE: catalog/controller/account/wishlist.php
+CODE: $special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+LINE: 98
+CODE: $special = false;
+LINE: 101
+CODE: 'price'      => $price,
+LINE: 111
+FILE: catalog/view/theme/default/template/account/wishlist.tpl
+CODE: <b><?php echo $product['special']; ?></b>
+LINE: 50
+----------------------------------------------------------------
